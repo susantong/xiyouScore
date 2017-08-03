@@ -1,0 +1,19 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.select p {
+	height: 30px;
+	line-height: 30px;
+	color: #666;
+	overflow: hidden;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.select p:hover {
+	background-color: #ccc;
+}

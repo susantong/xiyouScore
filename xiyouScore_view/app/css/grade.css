@@ -1,0 +1,35 @@
+.grade-wrapper h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  overflow: hidden;
+  color: #4587f6;
+  font-weight: bold; }
+
+.grade-wrapper .grade-box {
+  width: 80%;
+  margin: 0 auto 1rem;
+  padding: 0.5rem;
+  background-color: #4587f6;
+  height: 8rem;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  border-radius: 0.4rem; }
+  .grade-wrapper .grade-box p {
+    overflow: hidden; }
+  .grade-wrapper .grade-box span {
+    float: left; }
+  .grade-wrapper .grade-box span:nth-child(2) {
+    margin-left: 1rem; }
+  .grade-wrapper .grade-box i {
+    list-style: none; }
+
+.grade-wrapper .back {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 30px;
+  height: 30px;
+  background: url(../images/back.png) no-repeat center;
+  background-size: 100% 100%; }

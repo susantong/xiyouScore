@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>select</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		.exam {
+			border: 1px solid #ccc;
+			width: 30%;
+		}
+	</style>
+</head>
+<body>
+	<div class="exam">请选择</div>
+	<script type="text/javascript" src="select.js"></script>
+	<script type="text/javascript">
+		var div = document.querySelector('div');
+		div.addEventListener('click', function() {
+			new Select({
+				show: [1, 2, 3],
+				dom: div
+			});
+		});
+	</script>
+</body>
+</html>
